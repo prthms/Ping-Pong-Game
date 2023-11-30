@@ -16,7 +16,7 @@ pygame.display.set_caption("Ping Pong Game")
 # background image
 introimg = pygame.image.load("./Images/ping-pong-background.png")
 introimg = pygame.transform.scale(introimg,(screen_width,screen_higth)).convert_alpha()
-backimg = pygame.image.load("./Images/pong-computer-game645.jpg")
+backimg = pygame.image.load("./Images/board.jpg")
 backimg = pygame.transform.scale(backimg,(screen_width,screen_higth)).convert_alpha()
 clock = pygame.time.Clock()
 
