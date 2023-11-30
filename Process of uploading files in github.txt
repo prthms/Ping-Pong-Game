@@ -1,0 +1,29 @@
+1. // Process of uploading files in github 
+  git init
+  git add README.md // Optional hai ye 
+  git commit -m "first commit"
+  git branch -M main
+  git remote set-url origin https://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@github.com/prthms/<repo name>
+
+  git push -u origin main // final push and add
+  
+  
+ 2. personal access token -> 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
+ 
+ 3. // make token from -> Token(Classic)
+ in generating time make sure u  tick on the options for good working other wise u get in troble.
+ 
+✅repo
+✅workflow
+✅user
+✅write:discussion
+✅admin:enterprise
+✅admin:gpg_key
+ 
+ 
+ ##########################################################
+ 4. Update existinng file ----------------------->>>>
+  
+git remote set-url origin https://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@github.com/prthms/<repo name>
+git branch -M main
+ git push -u origin main
