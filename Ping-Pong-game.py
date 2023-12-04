@@ -59,8 +59,8 @@ def gameloop():
     leftvel = 0
     ballposi_x = 420
     ballposi_y = 200
-    ballvelx =-2
-    ballvely = 1
+    ballvelx = randint(-3,3)
+    ballvely = randint(-3,3)
     leftscore =0
     rightscore =0
     music3.stop()
